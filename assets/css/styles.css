@@ -2446,7 +2446,8 @@ textarea.form-control {
 }
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(26, 188, 156, 0.25);
+  /* box-shadow: 0 0 0 0.2rem rgba(26, 188, 156, 0.25); */
+  box-shadow: #00BFFF
 }
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
@@ -2477,7 +2478,8 @@ fieldset:disabled a.btn {
   background-color: #02025a;
   /* border-color: #148f77; */
   border-color: #02025a;
-  box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
+  /* box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5); */
+  box-shadow: #00BFFF;
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
@@ -2488,11 +2490,14 @@ fieldset:disabled a.btn {
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #148f77;
-  border-color: #12846e;
+  /* background-color: #148f77; */
+  background-color: #00BFFF;
+  /* border-color: #12846e; */
+  border-color: #02025a;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
+  /* box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5); */
+  box-shadow: #00BFFF;
 }
 
 .btn-secondary {
